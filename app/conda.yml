@@ -1,0 +1,10 @@
+name: conda_robot_framework
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.8
+  - pip:
+    - confluent-kafka   
+    - robotframework==5.0.1
+    - rpaframework==19.0.0

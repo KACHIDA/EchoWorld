@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: echoworld-pod-deployment
+  labels:
+    app: echoworld-pod
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: echoworld-pod
+  template:
+    metadata:
+      labels:
+        app: echoworld-pod
+    spec:
+      containers:
+       - name: echoworld-pod
+         image: kanna/echoworld.fb:latest
+      imagePullSecrets:
+       - name: regcred

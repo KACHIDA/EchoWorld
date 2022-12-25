@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.13 on win32)" generated="20221220 18:05:40.896" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Admin\.vscode\extensions\robocorp.robotframework-lsp-1.7.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Extract Input Message">
+<arg>${variables}</arg>
+<msg timestamp="20221220 18:05:41.529" level="FAIL">No keyword with name 'Extract Input Message' found.</msg>
+<status status="FAIL" starttime="20221220 18:05:41.529" endtime="20221220 18:05:41.529"/>
+</kw>
+<status status="PASS" starttime="20221220 18:05:40.928" endtime="20221220 18:05:52.434"/>
+</kw>
+<status status="PASS" starttime="20221220 18:05:40.927" endtime="20221220 18:05:52.434"/>
+</test>
+<status status="PASS" starttime="20221220 18:05:40.898" endtime="20221220 18:05:52.436"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
